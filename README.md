@@ -7,7 +7,7 @@ Tesla'nızın şarj durumunu, menzilini, sıcaklığını ve güvenlik uyarılar
 - 🔋 **Anlık Pil & Menzil:** Kalan yüzde ve tahmini menzil.
 - 🏠 **İç & Dış Sıcaklık:** Aracın iç ve dış ısısı.
 - ⚡ **Şarj Paneli:** Şarj olurken otomatik açılır; güç (kW), maliyet (₺), süre ve eklenen enerji (kWh) bilgilerini gösterir.
-- 🚨 **Güvenlik Bildirimleri:** Araç kilitliyken kapı açılırsa veya hareket algılanırsa masaüstü bildirimi gönderir.
+- 🚨 **Bildirim:** Araç şarjı dolduğunda masaüstü bildirimi gönderir.
 - 💰 **Maliyet Hesaplama:** Elektrik birim fiyatına göre dolum maliyetini gösterir.
 
 ## 🚀 Kurulum ve Çalıştırma
@@ -33,9 +33,10 @@ Sistemi aracınıza tanıtmak için şu adımları izleyin:
 Eklenti üzerinden Tesla hesabınızla giriş yaparak Access ve Refresh kodlarınızı alın.
 -Sisteme Giriş Yapın: Tarayıcınızdan http://localhost:4000 adresine gidin ve aldığınız kodları yapıştırın.
 -Hızlı Veri Ayarı: Sağ üstten Ayarlar (Settings) kısmına girin ve "Streaming API" (Eşzamanlı-API) seçeneğini AÇIK (Enabled) yapıp kaydedin.
+
 📊 Neler Dahil?
 -Masaüstü Widget: Sol altta anlık pil yüzdesi, menzil ve sıcaklık bilgileri.
--Güvenlik: Araç kilitliyken kapı açılırsa veya hareket algılanırsa masaüstü bildirimi gönderir.
+-Bildirim: Aracın şarjı dolduğunda masaüstü bildirimi gönderir.
 -Detaylı Analiz (Grafana): http://localhost:3000 adresinden (Kullanıcı: admin, Şifre: admin) şarj geçmişinizi ve batarya sağlığınızı takip edebilirsiniz.
 
 🖱️ Kullanım İpuçları
@@ -46,4 +47,5 @@ Uygulamayı Başka zamanda kullanmak için docker programını çalıştırıp t
 Açıklama;
 
 Eğer elektriğin birim fiyatı değiştirmek isterseniz teslax.py dosyasını notepad ile açıp "ELECTRICITY_PRICE = 3.45" bölümünden değiştirebilirsiniz.
+
 
