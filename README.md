@@ -34,10 +34,10 @@ pip install -r requirements.txt
 
 ### Adım 4: Aracınızı Bağlayın (TeslaMate Ayarı)
 Tarayıcınızdan http://localhost:4000 adresine gidin.
+Bu kısımda giriş yapmak istediğinizde Tesla hesabınızın token ı lazım olacak
 
-Tesla hesabınızla giriş yapın 
-Token Alın: Access Token Generator for Tesla eklentisini kurun (https://chromewebstore.google.com/detail/access-token-generator-fo/djpjpanpjaimfjalnpkppkjiedmgpjpe).
-Eklenti üzerinden Tesla hesabınızla giriş yaparak Access ve Refresh kodlarınızı alın.
+Token Almak için: Tarayıcıya Access Token Generator for Tesla eklentisini kurun (https://chromewebstore.google.com/detail/access-token-generator-fo/djpjpanpjaimfjalnpkppkjiedmgpjpe).
+Eklenti üzerinden Tesla hesabınızla giriş yaparak Access ve Refresh kodlarınızı alıp http://localhost:4000 adresine girin.
 Settings kısmından Streaming API seçeneğini Enabled yapın.
 
 ### Adım 5: Widget'ı Çalıştırın 🏁
@@ -57,4 +57,5 @@ Uygulamayı Başka zamanda kullanmak için docker programını çalıştırıp t
 
 ### ⚠️ Not
 Bu proje açık kaynaklı TeslaMate projesini kullanır. Verileriniz sadece kendi bilgisayarınızda saklanır.
+
 
