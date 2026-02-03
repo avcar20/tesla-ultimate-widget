@@ -49,8 +49,8 @@ python teslax.py
 Grafana Paneli: Şarj geçmişi ve batarya sağlığı için http://localhost:3000 (Kullanıcı: admin, Şifre: admin veya docker-compose dosyasındaki şifre).
 
 ### Ayar Değişikliği:
-Elektrik birim fiyatını değiştirmek için teslax.py dosyasını açıp ELECTRICITY_PRICE değerini düzenleyebilirsiniz.
-Eğer konumunu değiştirmek isterseniz de KONUM AYARI bölümünden değiştirebilirsiniz.
+Elektrik birim fiyatını değiştirmek için teslax.py dosyasını notepad ile açıp ELECTRICITY_PRICE değerini düzenleyebilirsiniz.
+Eğer widget konumunu değiştirmek isterseniz de KONUM AYARI bölümünden değiştirebilirsiniz.
 
 Kullanım İpuçları Kapatma: Widget üzerine çift tıklayarak uygulamayı sonlandırabilirsiniz.
 Veri Gelmiyorsa: Aracın uyanması için telefon uygulamasından bir kez kilidi aç-kapat yapmanız yeterlidir.
@@ -58,6 +58,7 @@ Uygulamayı Başka zamanda kullanmak için docker programını çalıştırıp t
 
 ### ⚠️ Not
 Bu proje açık kaynaklı TeslaMate projesini kullanır. Verileriniz sadece kendi bilgisayarınızda saklanır.
+
 
 
 
