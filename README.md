@@ -1,5 +1,5 @@
 # 🏎️ Tesla Ultimate Desktop Widget
-
+![Tesla Widget Görünümü](widget.png)
 Tesla'nızın şarj durumunu, menzilini, sıcaklığını ve güvenlik uyarılarını masaüstünüzden anlık olarak takip edin. Bu widget, **TeslaMate** verilerini MQTT üzerinden çekerek çalışır.
 
 ## ✨ Özellikler
@@ -43,4 +43,5 @@ Veri Gelmiyorsa: Aracın uyanması için telefon uygulamasından bir kez kilidi 
 Uygulamayı Başka zamanda kullanmak için docker programını çalıştırıp teslax.py dosyasına çift tıklayınca yine sol altta açılıyor.
 
 Açıklama;
+
 Eğer elektriğin birim fiyatı değiştirmek isterseniz teslax.py dosyasını notepad ile açıp "ELECTRICITY_PRICE = 3.45" bölümünden değiştirebilirsiniz.
