@@ -1,3 +1,8 @@
+# Project: Tesla Ultimate Widget
+# Author: avcar20 (Github)
+# Copyright (C) 2026 avcar20
+# Licensed under the GNU GPLv3
+
 import tkinter as tk
 import paho.mqtt.client as mqtt
 import threading
@@ -267,4 +272,5 @@ def create_window():
     root.mainloop()
 
 if __name__ == "__main__":
+
     create_window()
