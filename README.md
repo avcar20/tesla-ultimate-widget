@@ -1,6 +1,3 @@
-Kurulum adımlarını yeni yapıya (Docker Backend + Local Python) göre güncelledim.
-
-Markdown
 # 🏎️ Tesla Ultimate Desktop Widget
 ![Tesla Widget Görünümü](widget.png)
 
@@ -30,12 +27,12 @@ Proje klasöründe terminal açın ve şu komutu çalıştırın:
 docker-compose up -d
 Bu komut veritabanını ve MQTT sunucusunu arka planda başlatır.
 
-Adım 3: Widget Kurulumu
+### Adım 3: Widget Kurulumu
 Aynı terminalde Python kütüphanelerini yükleyin:
 
 pip install -r requirements.txt
 
-Adım 4: Aracınızı Bağlayın (TeslaMate Ayarı)
+### Adım 4: Aracınızı Bağlayın (TeslaMate Ayarı)
 Tarayıcınızdan http://localhost:4000 adresine gidin.
 
 Tesla hesabınızla giriş yapın 
@@ -43,20 +40,21 @@ Token Alın: Access Token Generator for Tesla eklentisini kurun (https://chromew
 Eklenti üzerinden Tesla hesabınızla giriş yaparak Access ve Refresh kodlarınızı alın.
 Settings kısmından Streaming API seçeneğini Enabled yapın.
 
-Adım 5: Widget'ı Çalıştırın 🏁
+### Adım 5: Widget'ı Çalıştırın 🏁
 Artık teslax.py dosyasına çift tıklayarak veya terminalden şu komutla widget'ı başlatabilirsiniz:
 
 python teslax.py
 
-📊 Ekstra Özellikler
+### 📊 Ekstra Özellikler
 Grafana Paneli: Şarj geçmişi ve batarya sağlığı için http://localhost:3000 (Kullanıcı: admin, Şifre: admin veya docker-compose dosyasındaki şifre).
 
-Ayar Değişikliği: Elektrik birim fiyatını değiştirmek için teslax.py dosyasını açıp ELECTRICITY_PRICE değerini düzenleyebilirsiniz.
+### Ayar Değişikliği: Elektrik birim fiyatını değiştirmek için teslax.py dosyasını açıp ELECTRICITY_PRICE değerini düzenleyebilirsiniz.
 Eğer konumunu değiştirmek isterseniz de KONUM AYARI bölümünden değiştirebilirsiniz.
 
 Kullanım İpuçları Kapatma: Widget üzerine çift tıklayarak uygulamayı sonlandırabilirsiniz.
 Veri Gelmiyorsa: Aracın uyanması için telefon uygulamasından bir kez kilidi aç-kapat yapmanız yeterlidir.
 Uygulamayı Başka zamanda kullanmak için docker programını çalıştırıp teslax.py dosyasına çift tıklayınca yine sol altta açılıyor.
 
-⚠️ Not
+### ⚠️ Not
 Bu proje açık kaynaklı TeslaMate projesini kullanır. Verileriniz sadece kendi bilgisayarınızda saklanır.
+
