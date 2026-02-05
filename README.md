@@ -59,6 +59,10 @@ Uygulamayı Başka zamanda kullanmak için docker programını çalıştırıp t
 ### ⚠️ Not
 Bu proje açık kaynaklı TeslaMate projesini kullanır. Verileriniz sadece kendi bilgisayarınızda saklanır.
 
+Release: Kodla vs uğraşmak istemeyenler için release bölümüne tıkla-çalıştır mantığında paylaşım yaptım.
+Tek yapacağınız şey bir defa Docker uygulamasını yükleyip açmak, Ondan sonra baslat.bat dosyasına tıklayın, o gerisini halledecek.
+Diğer zamanlarda da docker uygulamasını açıp başlat.bat a tıklarsanız hemen açılır.
+
 
 
 
